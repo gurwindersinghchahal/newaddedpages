@@ -1,0 +1,98 @@
+<div>  
+    <div class="above-navigation">
+        <div class="container-fluid flat-top header-style1">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="custom-info">
+                        <ul>
+                            <li class="phone">
+                                <a href="tel:0451965100">
+                                    <i class="fa fa-phone"></i>Call us: 0451 965 100
+                                </a>
+                            </li>
+                            <li class="mail">
+                                <a href="contact.html">
+                                    <i class="fa fa-envelope"></i>Email: info@akaudit.com.au
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div class="col-md-6">
+                    <div class="info-top-right">
+                        <ul>
+                            <li>
+                                <a>
+                                    AK Audit Specialists is a CPA Practice
+                                </a>
+                            </li>
+                            <li >
+                                <img src="images/cpa.jpg" alt="Real estate audits" title="Trust Accounts Audit from $550">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!--<div class="col-md-6 text-right">
+                    <div class="info-top-right">
+                        <img src="images/cpa.png" alt="Real estate audits" title="Trust Accounts Audit from $550">
+                    </div>
+                </div>-->
+            </div>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img src="images/logo.svg" alt="SMSF Auditors" title="SMSF Audits from $300"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse navigation-container" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto hover-nav" id="navItems">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="index.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="smsf.html">SMSF AUDITS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="TrustAccountAudits.html">TRUST ACCOUNT AUDITS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="incroporatedAssociationAudits.html">INCORPORATED ASSOCIATION AUDITS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="bodyCorporateAudits.html">BODY CORPORATE AUDITS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="about.html">ABOUT US</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="fees.html">FEES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">CONTACT US</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+
+    <script>
+        $(function(){
+      var current = location.pathname;
+      $('#navItems li a').each(function(){
+          var $this = $(this);
+          // if the current path is like this link, make it active
+          if($this.attr('href').indexOf(current) !== -1){
+              $this.parent().addClass('active');
+          }
+      })
+  })
+  </script>
+</div> 
